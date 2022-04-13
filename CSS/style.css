@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+
+
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+header{
+
+    background-color: rgb(122, 120, 120);
+    color: aliceblue;
+    height: 80px;
+    width: 100;
+    border-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.left-content ul li{
+
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo img{
+
+    height: 73px;
+    padding: 2px;
+    display: inline-block;
+}
+.logo{
+
+    display: flex;
+    justify-content: flex-start;
+    height: 80px;
+  
+}
+.left-content{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.left-content ul li{
+    display: inline;
+   
+
+}
+.right-content{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.search input{
+
+    height: 3vh;
+    width: 19vw;
+    border-radius: 4px;
+    margin: 0 15px;
+}
+
+main{
+
+   min-height: calc(100vh - 80px - 80px );
+    overflow: hidden;
+}
+
+.container
+{
+
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.images{
+
+    display: inline-flex;
+}
+
+
+footer{
+
+    background-color: rgb(122, 120, 120);
+    height: 80pxpx;
+    /* display: flex;
+    justify-content:flex-start; */
+    
+}
+.btmlines ul li{
+    display: inline;
+}
+
+.logobtm img{
+
+    
+    height: 55px;
+    padding: 0 13px;
+  
+    
+}
+.logobtm{
+
+    display: flex;
+    justify-content: center;
+}
+.btmlines{
+
+    display: flex;
+    max-width: 50vw;
+    margin:0 auto 0 auto ;
+    justify-content: space-around;
+}
+.btmlast{
+
+    color: aliceblue;
+}
+
+.ulclr{
+
+    color: rgb(47, 169, 240);
+
+    margin: 0 0 13px 0;
+    
+}
+.ulclr ul li{
+
+    padding: 9px;
+    margin-right: 3px;
+}
